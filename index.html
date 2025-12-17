@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+    }
+
+    nav {
+      background-color: #333;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-size: 16px;
+    }
+
+    nav a:hover {
+      color: #4CAF50;
+    }
+
+    .header {
+      background-color: #4CAF50;
+      color: white;
+      padding: 40px;
+      text-align: center;
+    }
+
+    .section {
+      padding: 30px;
+      text-align: center;
+    }
+
+    .card {
+      background-color: rgb(214, 179, 249);
+      width: 250px;
+      padding: 20px;
+      margin: 15px;
+      display: inline-block;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      transition: transform 0.3s;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+    }
+
+    .btn {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .btn:hover {
+      background-color: #45a049;
+    }
+
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="about.html">About</a>
+    <a href="#">Projects</a>
+    <a href="#">Contact</a>
+  </nav>
+
+  <div class="header">
+    <h1>Hello, I'm a UI Designer</h1>
+    <p>HTML & CSS Learner</p>
+    <button class="btn">Click to view Resume</button>
+  </div>
+
+  <div class="section">
+    <h2>About Me</h2>
+    <p>I am learning web development. This is my first portfolio website using HTML and CSS.</p>
+  </div>
+
+  <div class="section">
+    <h2>My Projects</h2>
+
+    <div class="card">
+      <h3>Music UI</h3>
+      <p>Simple static music player design</p>
+    </div>
+
+    <div class="card">
+      <h3>Calculator</h3>
+      <p>Basic calculator using HTML & CSS</p>
+    </div>
+
+    <div class="card">
+      <h3>Login Page</h3>
+      <p>Simple login form design</p>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>Contact Me</h2>
+    <p>Email: mona08@gmail.com</p>
+  </div>
+
+</body>
+</html>
